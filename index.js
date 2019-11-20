@@ -1,6 +1,8 @@
 //import library
 const express =  require('express');
 
+const PORT = process.env.PORT || 80;
+
 //create application
 const app = express();
 
@@ -11,7 +13,7 @@ app.get('/',(req,res) => {
 });
 
 //start server
-app.listen(80, (err) => {
+app.listen(PORT, (err) => {
     if (err) {
         console.error(err);
         process.exit(1);
