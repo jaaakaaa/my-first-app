@@ -1,4 +1,3 @@
 # Ma premiere API
 
-sem
-aine dep 1
+semainedep 1
