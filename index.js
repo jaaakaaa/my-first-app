@@ -9,7 +9,7 @@ const app = express();
 //some basic royute
 app.get('/',(req,res) => {
     //
-    res.json({message:'coucou'});
+    res.json({message:'coucou', title:"Salut"});
 });
 
 //start server
